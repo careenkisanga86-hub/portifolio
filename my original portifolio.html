@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<body> 
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+<div style="background: rgba(0,0,0,0.45);min-height: 100vh;">
+<style>
+  body{
+    background-image:url("image/lolo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    min-height: 100vh;
+  }
+  h1{
+    color: white;
+    text-align: left ;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.9);
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  h2{
+    color:#f0a500;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0,0.8);
+    margin-bottom: 20px;
+  }
+  h3{
+    color: black;
+    font-size: larger;
+  }
+  h4{
+    color: crimson;
+    font-size: larger;
+     margin-bottom: 20px;
+  }
+  p{
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
+  }
+</style>
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo"><h1>Careen kisanga</h1></div>
+  <ul class="nav-links">
+    <li><a href="#about"><h4>About</h4></a></li>
+    <li><a href="#projects"><h4>Projects</h4></a></li>
+    <li><a href="#skills"><h4>Skills</h4></a></li>
+    <li><a href="#contact"><h4>Contact</h4></a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="shape shape1"></div>
+  <div class="shape shape2"></div>
+  <div class="shape shape3"></div>
+  <div class="hero-content">
+    <div class="hero-tag"><h3>👋 Available for opportunities</h3></div>
+    <h1>Hi, I'm <span class="gradient-text">Careen kisanga</span><br/>Python Developer</h1>
+    <p>I build web apps and desktop tools using Python. Passionate about turning ideas into real working software — one line of code at a time.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary"><h2>See My Work 🚀 </h2></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-title"><h1>About Me</h1></span></div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a beginner Python developer with a huge passion for learning and building. I started my coding journey recently and already built real working apps.</p>
+      <p>I believe in learning by doing — every error I fix makes me a better programmer. My goal is to become one of the best developers out there.</p>
+      <p>When I'm not coding, I'm learning something new every single day. 🔥</p>
+    </div>
+    
+  </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label"><h1>What I Built</h1></div>
+  <div class="section-title"><h3>My Projects</h3></span></div>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-emoji">💸</div>
+      <h3>Budget Tracker</h3>
+      <p>A full web app to track income and expenses. Features a live balance, spending chart, and transaction history — all saved to a JSON file.</p>
+      <div class="project-tags">
+        <span class="tag tag-yellow">Python</span>
+        <span class="tag tag-pink">Flask</span>
+        <span class="tag tag-blue">HTML/CSS</span>
+        <span class="tag tag-green">JSON</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-emoji">📝</div>
+      <h3>Todo App</h3>
+      <p>A desktop todo list app built with Python and tkinter. Add, delete, and save tasks — works completely offline with no internet needed.</p>
+      <div class="project-tags">
+        <span class="tag tag-yellow">Python</span>
+        <span class="tag tag-purple">Tkinter</span>
+        <span class="tag tag-green">JSON</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-emoji">🌐</div>
+      <h3>Portfolio Website</h3>
+      <p>This portfolio! A colorful one-page website built with pure HTML and CSS to showcase my projects and skills as a developer.</p>
+      <div class="project-tags">
+        <span class="tag tag-blue">HTML</span>
+        <span class="tag tag-pink">CSS</span>
+        <span class="tag tag-yellow">JavaScript</span>
+      </div>
+    </div>
+<div class="project-card reveal">
+      <div class="project-emoji">🌐</div>
+      <h3>mansion Website</h3>
+      <p>the mansion website showcases a company that deals with the selling of quality home furniture and home design decorations — carefully selected pieces that bring warmth, elegance and personality to your living spaces..</p>
+      <div class="project-tags">
+        <span class="tag tag-blue">HTML</span>
+        <span class="tag tag-pink">CSS</span>
+        <span class="tag tag-yellow">JavaScript</span>
+      </div>
+    </div>
+  </div>
+</section><br>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label"><h1>What I Know</h1></div>
+  <div class="section-title"><h2>My Skills</h2></span></div>
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-name">Python</div>
+      <div class="skill-level">Learning actively</div>
+      <div class="skill-bar"><div class="skill-fill" style="width:60%; background: linear-gradient(90deg, var(--yellow), var(--orange));"></div></div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🌶️</div>
+      <div class="skill-name">Flask</div>
+      <div class="skill-level">Beginner</div>
+      <div class="skill-bar"><div class="skill-fill" style="width:40%; background: linear-gradient(90deg, var(--orange), var(--pink));"></div></div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🌐</div>
+      <div class="skill-name">HTML/CSS</div>
+      <div class="skill-level">Beginner</div>
+      <div class="skill-bar"><div class="skill-fill" style="width:45%; background: linear-gradient(90deg, var(--blue), var(--purple));"></div></div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🔧</div>
+      <div class="skill-name">VS Code</div>
+      <div class="skill-level">Comfortable</div>
+      <div class="skill-bar"><div class="skill-fill" style="width:65%; background: linear-gradient(90deg, var(--purple), var(--pink));"></div></div>
+    </div>
+
+  </div>
+</section><br>
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label"><h1>Let connect</h1></div>
+  <div class="section-title"><h2>Contact Me</h2></span></div>
+  <div class="contact-wrapper">
+    <p>I'm always open to learning opportunities, collaborations, or just a friendly chat about coding. Feel free to reach out!</p>
+    <div class="contact-links">
+      <a href="#careenkisanga86@gmail.com" class="contact-link">📧 Email Me</a>
+      <a href="https://github.com/careenkisanga86" class="contact-link" target="_blank">💻 GitHub</a>
+      <a href="careen kisanga" class="contact-link">💼 LinkedIn</a>
+    </div><br>
+    <!-- FOOTER -->
+<footer>
+  Built with ❤️ and <span>Python</span> by Careen kisanga &nbsp;·&nbsp; 2026
+</footer>
+
+    <a href="#home" class="btn btn-primary">Back to Top ↑</a>
+  </div>
+</section>
+
